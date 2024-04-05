@@ -154,3 +154,5 @@ class DataTransformation:
 #     print(X_train_trans.shape, y_train.shape, X_test_trans.shape, y_test.shape)
 # x=DataTransformation()
 # x.initiate_data_transform(r"C:\Users\balkr\OneDrive\Desktop\pp\artifacts\train.csv",r"C:\Users\balkr\OneDrive\Desktop\pp\artifacts\test.csv")
+
+# git add .
