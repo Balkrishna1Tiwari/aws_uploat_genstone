@@ -47,3 +47,4 @@ class DataIngestion:
 
 # x=DataIngestion()
 # x.initiate_class_ingestion()
+# k
