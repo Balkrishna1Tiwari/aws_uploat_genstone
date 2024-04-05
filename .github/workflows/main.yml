@@ -67,3 +67,5 @@ jobs:
         run: |
           docker build -t ${{ secrets.AWS_ECR_REPO_URI }}:$IMAGE_TAG .
           docker push ${{ secrets.AWS_ECR_REPO_URI }}:$IMAGE_TAG
+# 058264301201.dkr.ecr.ap-southeast-2.amazonaws.com/diamond_price_prediction_by_balkrishna_tiwari
+
