@@ -38,15 +38,10 @@ if __name__=="__main__":
 
     app.run(host="0.0.0.0", port=5000, debug= True)
             
-#             # ls -l templates/hi.html
+
 
             
-# conda create --name myenv python=3.12
-
-            
-            
-# hjuku
-            
+     
             
             
             
