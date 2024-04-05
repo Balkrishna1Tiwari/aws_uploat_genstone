@@ -155,4 +155,4 @@ class DataTransformation:
 # x=DataTransformation()
 # x.initiate_data_transform(r"C:\Users\balkr\OneDrive\Desktop\pp\artifacts\train.csv",r"C:\Users\balkr\OneDrive\Desktop\pp\artifacts\test.csv")
 
-# git add .
+# git add .hjhj
