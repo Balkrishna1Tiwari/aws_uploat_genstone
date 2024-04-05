@@ -31,4 +31,4 @@ if __name__ == '__main__':
     except Exception as e:
         logging.error(f"An unexpected error occurred: {e}")
         print(e)
-# python src1/pipeline/training_pipeline.py
+# python src1/pipeline/training_pipeline.pyjkjk
