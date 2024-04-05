@@ -15,7 +15,7 @@ from src.component.dt_ing import DataIngestion
 from exce import error_message_detail
 import pandas as pd
  
-if __name__ == '__main__':
+def training_pipeline():
     try:
         obj = DataIngestion()
         train_data_path, test_data_path = obj.initiate_class_ingestion()

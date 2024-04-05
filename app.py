@@ -1,11 +1,12 @@
 from flask import Flask, render_template, request
 from src.pipeline.prediction_pipeline import CustomData, Prediction_pipeline
-
+from src.pipeline.train import training_pipeline
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/train2')
 def home_page():
-    return render_template('index.html')
+    training_pipeline()
+    return 'training completed'
 
 
 @app.route('/predict', methods=['GET', 'POST'])
